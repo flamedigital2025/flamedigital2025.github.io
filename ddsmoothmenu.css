@@ -1,5 +1,5 @@
 .ddsmoothmenu{
-font: bold 12px 'droid_sansregular';
+font: 600 13px "DM Sans", system-ui, sans-serif;
  width: 100%;
  padding: 0;
  margin: 0;
@@ -24,9 +24,9 @@ float: left;
 .ddsmoothmenu ul li a{
 display: block;
 position: relative;
- color: #F9DCC2;
+ color: #e8edf5;
  padding: 7px 6px;
-color: #3e3428;
+color: #121a28;
  margin:0 3px;
 text-decoration: none;
  text-shadow:none;
@@ -43,19 +43,19 @@ display: inline-block;
 -moz-border-radius:20px;
 border-radius:20px;
 -webkit-border-radius:20px;
-text-shadow:1px 1px #844318;
+ text-shadow:0 1px 2px rgba(0,0,0,0.35);
 }
 
 .ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited{
-color: #F9DCC2;
-text-shadow:1px 1px #844318;
+color: #e8edf5;
+text-shadow:0 1px 2px rgba(0,0,0,0.35);
 }
 
 .ddsmoothmenu ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
 
 text-shadow:none;
 color: #fff;
-background:#3e3428;
+background:#121a28;
 -moz-border-radius:20px;
 border-radius:20px;
 -webkit-border-radius:20px;
@@ -63,7 +63,7 @@ border-radius:20px;
 
 .ddsmoothmenu ul li a:hover{
 color: #fff;
-background:#3e3428;
+background:#121a28;
 text-shadow:none;
 -moz-border-radius:20px;
 border-radius:20px;
@@ -76,43 +76,22 @@ transition: background .65s ease-in-out;
 .ddsmoothmenu ul li.active
 {
 color: #fff;
-background:#3e3428;
+background:#121a28;
 text-shadow:none;
 -moz-border-radius:20px;
 border-radius:20px;
 -webkit-border-radius:20px;
 }
- 
 
-@font-face {
-font-family: 'droid_sansregular';
-src: url('fonts/droidsans-webfont.eot');
-src: url('fonts/droidsans-webfont.eot?#iefix') format('embedded-opentype'),
-url('fonts/droidsans-webfont.woff') format('woff'),
-url('fonts/droidsans-webfont.ttf') format('truetype'),
-url('fonts/droidsans-webfont.svg#droid_sansregular') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-@font-face {
-font-family: 'droid_sansbold';
-src: url('fonts/droidsans-bold-webfont.eot');
-src: url('fonts/droidsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-url('fonts/droidsans-bold-webfont.woff') format('woff'),
-url('fonts/droidsans-bold-webfont.ttf') format('truetype'),
-url('fonts/droidsans-bold-webfont.svg#droid_sansbold') format('svg');
-font-weight: normal;
-font-style: normal;
-}
 /*1st sub level menu*/
 .ddsmoothmenu ul li ul{
 position: absolute;
 left: 0;
 display: none; /*collapse all sub menus to begin with*/
 visibility: hidden;
-background:#fffefb;
+background:#fcfcfa;
 padding:10px;
-border:1px solid #e8e3d0;
+border:1px solid #d4dbe6;
 top:100%;
 z-index: 300;
 -moz-border-radius:10px;
@@ -139,16 +118,16 @@ padding:10px;
 
 /* Sub level menu links style */
 .ddsmoothmenu ul li ul li a{
-font: bold 12px Arial, Helvetica, sans-serif;
+font: 600 12px "DM Sans", system-ui, sans-serif;
 width:170px; /*width of sub menus*/
 padding:5px;
 margin: 0;
 position: relative;
-color:#884d20!important;
+color:#1e5682!important;
 text-shadow:none!important;
      }
 .ddsmoothmenu ul li ul li a:hover{
-color:#444!important;
+color:#0f3049!important;
 background:none;
 border-radius:1px!important;
 -moz-border-radius:1px!important;
@@ -169,7 +148,7 @@ width: 0;
 height: 0;
 border-left: 4px solid transparent;
 border-right: 4px solid transparent;
-border-top: 6px solid #F9DCC2;
+border-top: 6px solid #e8edf5;
 font-size: 0;
 line-height: 0;
 overflow: hidden;
@@ -190,7 +169,7 @@ width: 0;
 height: 0;
 border-top: 4px solid transparent;
 border-bottom: 4px solid transparent;
-border-left: 6px solid #884d20;
+border-left: 6px solid #1e5682;
 font-size: 0;
 line-height: 0;
 overflow: hidden;
